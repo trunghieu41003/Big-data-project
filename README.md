@@ -18,9 +18,6 @@ We solved 2 tasks in the Vietnamese Aspect-based Sentiment Analysis problem: **A
 
 |   Domain   |  Dataset | Reviews | Aspects | AvgLength | VocabSize | DiffVocab |
 |:----------:|:--------:|:-------:|:-------:|:---------:|:---------:|:---------:|
-|            | Training |  2,961  |  9,034  |     54    |   5,168   |     -     |
-| Restaurant |    Dev   |  1,290  |  3,408  |     50    |   3,398   |   1,702   |
-|            |   Test   |   500   |  2,419  |    163    |   3,375   |   1,729   |
 |            | Training |  3,000  |  13,948 |     47    |   3,908   |     -     |
 |    Hotel   |    Dev   |  2,000  |  7,111  |     23    |   2,745   |   1,059   |
 |            |   Test   |   600   |  2,584  |     30    |   1,631   |    346    |
