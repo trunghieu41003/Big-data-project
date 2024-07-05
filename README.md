@@ -3,9 +3,9 @@
 ## Overview
 
 We solved 2 tasks in the Vietnamese Aspect-based Sentiment Analysis problem: **Aspect Category Detection** (ACD) and **Sentiment Polarity Classification** (SPC). Besides, we proposed end-to-end models to handle the above tasks simultaneously for 1 domains (Hotel) in the [VLSP 2018 ABSA](https://vlsp.org.vn/vlsp2018/eval/sa) dataset using [PhoBERT](https://github.com/VinAIResearch/PhoBERT) as Pre-trained language models for Vietnamese in 4 ways: 
-- Multi-task:
+- Multi-task
 
-- Multi-task with Multi-branch approach:
+- Multi-task with Multi-branch approach
 
 - CNN
 
