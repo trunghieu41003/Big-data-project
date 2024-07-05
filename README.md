@@ -1,4 +1,4 @@
-# Aspect-based Sentiment Analysis for Vietnamese
+78# Aspect-based Sentiment Analysis for Vietnamese
 > Multi-task Solution for Aspect Category Sentiment Analysis (ACSA) on Vietnamese Datasets
 - Demo: https://youtu.be/ggmAvpA4oHQ
 
@@ -54,96 +54,78 @@ A[Remove\nHTML] --> B[Standardize\nUnicode] --> C[Normalize\nAcronym] --> D[Word
 </thead>
 <tbody>
   <tr>
-    <td align="center" rowspan="5">Aspect<br>Detection</td>
-    <td align="center">VLSP best submission</td>
-    <td align="center">76.00</td>
-    <td align="center">66.00</td>
-    <td align="center">70.00</td>
-    <td align="center">79.00</td>
-    <td align="center">76.00</td>
-    <td align="center">77.00</td>
+    <td align="center" rowspan="4">Aspect<br>Detection</td>
+    <td align="center">Bi-LSTM</td>
+    <td align="center">98.80</td>
+    <td align="center">5.70</td>
+    <td align="center">5.00</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
   </tr>
   <tr>
-    <td align="center">Bi-LSTM+CNN</td>
-    <td align="center">84.03</td>
-    <td align="center">72.52</td>
-    <td align="center">77.85</td>
-    <td align="center">82.02</td>
-    <td align="center">77.51</td>
-    <td align="center">79.70</td>
-  </tr>
-  <tr>
-    <td align="center">BERT-based Hierarchical</td>
+    <td align="center">CNN</td>
+    <td align="center">77.70</td>
+    <td align="center">44.30</td>
+    <td align="center">48.00</td>
     <td align="center">-</td>
     <td align="center">-</td>
-    <td align="center">82.06</td>
     <td align="center">-</td>
-    <td align="center">-</td>
-    <td align="center"><b>84.23</b></td>
   </tr>
   <tr>
     <td align="center">Multi-task</td>
-    <td align="center"><b>87.45</b></td>
-    <td align="center"><b>78.17</b></td>
-    <td align="center"><b>82.55</b></td>
-    <td align="center">81.09</td>
-    <td align="center">85.61</td>
-    <td align="center">83.29</td>
-  </tr>
-  <tr>
-    <td align="center">Multi-task Multi-branch</td>
-    <td align="center">63.21</td>
-    <td align="center">57.86</td>
-    <td align="center">60.42</td>
-    <td align="center">80.81</td>
-    <td align="center">87.39</td>
-    <td align="center">83.97</td>
-  </tr>
-  <tr>
-    <td align="center" rowspan="5">Aspect +<br>Polarity</td>
-    <td align="center">VLSP best submission</td>
-    <td align="center">66.00</td>
-    <td align="center">57.00</td>
-    <td align="center">61.00</td>
-    <td align="center">62.00</td>
-    <td align="center">60.00</td>
-    <td align="center">61.00</td>
-  </tr>
-  <tr>
-    <td align="center">Bi-LSTM+CNN</td>
-    <td align="center">76.53</td>
-    <td align="center">66.04</td>
-    <td align="center">70.90</td>
-    <td align="center">66.66</td>
-    <td align="center">63.00</td>
-    <td align="center">64.78</td>
-  </tr>
-  <tr>
-    <td align="center">BERT-based Hierarchical</td>
-    <td align="center">-</td>
-    <td align="center">-</td>
-    <td align="center">74.69</td>
-    <td align="center">-</td>
-    <td align="center">-</td>
-    <td align="center">71.30</td>
-  </tr>
-  <tr>
-    <td align="center">Multi-task</td>
-    <td align="center"><b>81.90</b></td>
-    <td align="center"><b>73.22</b></td>
-    <td align="center"><b>77.32</b></td>
-    <td align="center"><b>69.66</b></td>
-    <td align="center"><b>73.54</b></td>
-    <td align="center"><b>71.55</b></td>
-  </tr>
-  <tr>
-    <td align="center">Multi-task Multi-branch</td>
-    <td align="center">57.55</td>
-    <td align="center">52.67</td>
+    <td align="center">82.70</td>
+    <td align="center">50.00</td>
     <td align="center">55.00</td>
-    <td align="center">68.69</td>
-    <td align="center">74.29</td>
-    <td align="center">71.38</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">Multi-task Multi-branch</td>
+    <td align="center">95.20</td>
+    <td align="center">47.70</td>
+    <td align="center">52.30</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center" rowspan="4">Aspect +<br>Polarity</td>
+    <td align="center">Bi-LSTM</td>
+    <td align="center">96.70</td>
+    <td align="center">28.10</td>
+    <td align="center">26.20</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">CNN</td>
+    <td align="center">78.80</td>
+    <td align="center">45.80</td>
+    <td align="center">46.60</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">Multi-task</td>
+    <td align="center">82.30</td>
+    <td align="center">50.09</td>
+    <td align="center">52.20</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">Multi-task Multi-branch</td>
+    <td align="center">82.20</td>
+    <td align="center">48.70</td>
+    <td align="center">50.10</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
   </tr>
 </tbody>
 </table>
